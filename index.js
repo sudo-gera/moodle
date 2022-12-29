@@ -4,6 +4,6 @@ fetch(
     ?
         ""
     :
-        "https://raw.githubusercontent.com/sudo-gera/moodle/main/"
+        "https://gitlab.com/sudo-gera/moodle/-/raw/main/main.js"
     )+'main.js?'+new Date().getTime()+Math.random()
 ).then(e=>e.text().then(e=>eval(e)));
